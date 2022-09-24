@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterSample.API", "TwitterSample.API\TwitterSample.API.csproj", "{731EFC20-11F3-4427-9E50-4F262CF61F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterSample.Models", "TwitterSample.Models\TwitterSample.Models.csproj", "{4415702D-5A63-41BD-8B5F-360B6705C4EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterSample.Services", "TwitterSample.Services\TwitterSample.Services.csproj", "{A044F1CE-23A6-4F1E-A48B-AB52CB8831B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterSample.Tests", "TwitterSample.Tests\TwitterSample.Tests.csproj", "{39EDE239-D4FA-44C0-8114-EE5C6D1D4D91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSample.API.Worker", "TwitterSample.API.Worker\TwitterSample.API.Worker.csproj", "{770C401D-E1CB-4A12-A5A2-CBD7388298AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{731EFC20-11F3-4427-9E50-4F262CF61F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731EFC20-11F3-4427-9E50-4F262CF61F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731EFC20-11F3-4427-9E50-4F262CF61F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731EFC20-11F3-4427-9E50-4F262CF61F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4415702D-5A63-41BD-8B5F-360B6705C4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4415702D-5A63-41BD-8B5F-360B6705C4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4415702D-5A63-41BD-8B5F-360B6705C4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4415702D-5A63-41BD-8B5F-360B6705C4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A044F1CE-23A6-4F1E-A48B-AB52CB8831B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A044F1CE-23A6-4F1E-A48B-AB52CB8831B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A044F1CE-23A6-4F1E-A48B-AB52CB8831B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A044F1CE-23A6-4F1E-A48B-AB52CB8831B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39EDE239-D4FA-44C0-8114-EE5C6D1D4D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EDE239-D4FA-44C0-8114-EE5C6D1D4D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EDE239-D4FA-44C0-8114-EE5C6D1D4D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EDE239-D4FA-44C0-8114-EE5C6D1D4D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770C401D-E1CB-4A12-A5A2-CBD7388298AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770C401D-E1CB-4A12-A5A2-CBD7388298AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770C401D-E1CB-4A12-A5A2-CBD7388298AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770C401D-E1CB-4A12-A5A2-CBD7388298AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33B9E8AC-7B76-49FB-93DF-CDFDD6166EAB}
+	EndGlobalSection
+EndGlobal
